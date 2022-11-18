@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  color: whitesmoke;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+body .h1-container {
+  border-bottom: solid 3px whitesmoke;
+}
+body .h1-container h1 {
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 10px;
+  text-shadow: 0 0 20px whitesmoke;
+  padding: 3%;
+  transition: 1s;
+}
+body .h1-container h1:hover {
+  transform: scale(1.3);
+}
+body #app {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+body #app .displayerDiv {
+  padding: 7% 0%;
+  width: 100%;
+}
+body #app .displayerDiv h2 {
+  width: 100%;
+  font-size: 10rem;
+  text-shadow: 0 0 20px whitesmoke;
+  letter-spacing: 20px;
+  text-align: center;
+  transition: 0.5s;
+}
+@media (max-width: 1052px) {
+  body #app .displayerDiv h2 {
+    text-align: center;
+    font-size: 5rem;
+  }
+}
+@media (max-width: 815px) {
+  body #app .displayerDiv h2 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+}
+body .buttonsDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body .buttonsDiv button {
+  margin: 2% 5%;
+  background: black;
+  border: 1px solid whitesmoke;
+  border-radius: 50px;
+  padding: 3%;
+  color: whitesmoke;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 3rem;
+  transition: 0.5s;
+  text-shadow: -2px 4px 20px whitesmoke;
+}
+body .buttonsDiv button:hover {
+  transform: scale(1.3);
+  text-shadow: -2px 4px 20px gold;
+  color: gold;
+  border: 1px solid gold;
+}
+@media (max-width: 1052px) {
+  body .buttonsDiv button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+@media (max-width: 815px) {
+  body .buttonsDiv button {
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=index.css.map */
